@@ -45,18 +45,6 @@ The agent is designed for image-based screening, ranked educational support, unc
 
 ![SGCA decision-support agent workflow](./assets/architecture/sgca_agent_workflow_part_c.png?raw=true)
 
-## Final Manuscript Metrics
-
-| Model | Split | Accuracy | Macro-F1 | ROC-AUC | PR-AUC | Top-3 |
-|---|---:|---:|---:|---:|---:|---:|
-| Unified SGCA | Validation | 96.5% | 96.6% | 0.999 | 0.988 | 99.0% |
-| Unified SGCA | Internal test | 97.5% | 98.0% | 0.999 | 0.993 | 99.6% |
-| Unified SGCA | Development external | 79.5% | 81.7% | 0.986 | 0.899 | 93.0% |
-| SGCA Cross-Attention | Validation | 96.6% | 96.8% | 0.999 | 0.988 | 99.0% |
-| SGCA Cross-Attention | Internal test | 96.9% | 97.4% | 0.999 | 0.993 | 99.5% |
-| SGCA Cross-Attention | Development external | 72.8% | 72.8% | 0.977 | 0.846 | 88.8% |
-
-The development-external cohort is an internet-derived robustness cohort. It should not be interpreted as a locked prospective clinical validation set.
 
 ## Repository Structure
 
