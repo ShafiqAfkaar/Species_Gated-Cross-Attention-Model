@@ -35,15 +35,15 @@ The agent is designed for image-based screening, ranked educational support, unc
 
 ### SGCA Architecture
 
-![SGCA architecture](assets/architecture/sgca_architecture_part_a.png)
+![SGCA architecture](./assets/architecture/sgca_architecture_part_a.png?raw=true)
 
 ### Disease Heads and Inference Outputs
 
-![SGCA disease heads and inference](assets/architecture/sgca_disease_heads_and_inference_part_b.png)
+![SGCA disease heads and inference](./assets/architecture/sgca_disease_heads_and_inference_part_b.png?raw=true)
 
 ### Decision-Support Agent Workflow
 
-![SGCA decision-support agent workflow](assets/architecture/sgca_agent_workflow_part_c.png)
+![SGCA decision-support agent workflow](./assets/architecture/sgca_agent_workflow_part_c.png?raw=true)
 
 ## Final Manuscript Metrics
 
