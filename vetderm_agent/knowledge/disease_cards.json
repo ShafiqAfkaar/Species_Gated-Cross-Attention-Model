@@ -1,0 +1,584 @@
+[
+  {
+    "disease": "Cat_normal",
+    "overview": "The image is visually closest to the normal-cat class in the training taxonomy. This is not a certificate of health: mild, early, hidden or poorly photographed skin disease can be missed by a single image. Use this result as a low-alert visual triage label, especially if the cat has no itching, hair loss, discharge, odor or behavior change.",
+    "typical_signs": [
+      "No obvious focal lesion in the uploaded view",
+      "Coat and skin appear broadly even in the photographed area",
+      "No visible crusting, circular hair loss, swelling or discharge",
+      "No obvious self-trauma such as scratching wounds or overgroomed patches",
+      "Image quality, coat color, dirt, grooming and lighting can still hide subtle change"
+    ],
+    "transmission": "Normal skin is not a transmissible disease label. If itching, crusting, hair loss or household spread is present, contagious causes such as mites or ringworm still need veterinary consideration even when the image is classified as normal.",
+    "ask_your_vet": [
+      "Ask whether the photographed area looks normal for this cat in the context of the history",
+      "Ask whether clearer close-up and wider-view photos would help if signs are subtle",
+      "Ask whether an in-person examination is needed if itching, hair loss, odor, discharge or behavior change is present",
+      "Ask what changes should be monitored before rechecking the skin"
+    ],
+    "urgent_flags": [
+      "Pain or strong reaction when the area is touched",
+      "Bleeding, open wounds or discharge",
+      "Rapid swelling or fast spread of skin changes",
+      "Fever, poor appetite, lethargy or hiding behavior",
+      "Eye involvement or lesions near the eye",
+      "Human skin irritation after contact with the animal"
+    ]
+  },
+  {
+    "disease": "Dermatitis in Dog",
+    "overview": "This label means the uploaded dog image is visually closest to the dermatitis examples in the training taxonomy. Dermatitis is a descriptive skin-inflammation category, not a single cause; allergy, parasites, bacterial or yeast overgrowth, irritants, moisture and self-trauma can look similar in photographs. The useful next step is to identify the underlying cause with veterinary examination and, when needed, targeted diagnostic tests.",
+    "typical_signs": [
+      "Red or inflamed skin",
+      "Itching, licking, chewing or rubbing",
+      "Hair loss around the affected area",
+      "Crusting, scaling, scabs or thickened skin",
+      "Moist or irritated patches",
+      "Odor, debris or discharge when secondary infection is present",
+      "Recurrent flares in the same body regions"
+    ],
+    "transmission": "Dermatitis itself is a visual description and is not automatically contagious. Transmission risk depends on the cause; parasites, dermatophytes and some infections can spread, while allergic or irritant dermatitis is not contagious.",
+    "ask_your_vet": [
+      "Ask which causes should be ruled out first, such as parasites, infection, allergy or irritant exposure",
+      "Ask whether skin cytology, scraping, fungal testing or other diagnostics are appropriate",
+      "Ask what history details are useful, including itch pattern, seasonality, diet, flea exposure and contact with other animals",
+      "Ask whether other animals or people in the household should be checked if lesions are spreading"
+    ],
+    "urgent_flags": [
+      "Severe pain, intense itching or inability to rest",
+      "Rapidly spreading redness, swelling or skin damage",
+      "Pus, bad odor, wet discharge or large open sores",
+      "Fever, lethargy, poor appetite or weakness",
+      "Lesions involving the face, eye, ear canal, feet or genital region",
+      "Multiple animals or people developing skin signs"
+    ]
+  },
+  {
+    "disease": "Dog_normal",
+    "overview": "The image is visually closest to the normal-dog class in the training taxonomy. This does not rule out early, hidden or non-photographed disease, especially if the dog is itchy, painful, smelly, losing hair or behaving differently. Treat this output as a low-alert image finding rather than a medical diagnosis.",
+    "typical_signs": [
+      "No obvious focal lesion in the uploaded view",
+      "Skin and coat appear broadly even in the photographed area",
+      "No visible open wound, swelling, crusting or discharge",
+      "No obvious circular hair loss or moist inflamed patch",
+      "Coat density, lighting, motion blur and image angle can obscure mild disease"
+    ],
+    "transmission": "Normal skin is not a transmissible disease label. If skin signs are present in other animals or people, or if there is progressive itching or hair loss, contagious causes still need veterinary consideration.",
+    "ask_your_vet": [
+      "Ask whether the photographed area looks normal for this dog given the symptoms and history",
+      "Ask whether a clearer close-up, wider body photo or in-person examination is needed",
+      "Ask what signs would justify rechecking the skin even if the image looks normal",
+      "Ask whether ears, paws, belly or hidden skin folds should also be examined"
+    ],
+    "urgent_flags": [
+      "Pain, bleeding, open wounds or discharge",
+      "Rapid swelling or fast spread of skin changes",
+      "Fever, poor appetite, lethargy or weakness",
+      "Eye involvement, closed eye or facial swelling",
+      "Sudden severe itching or self-injury",
+      "Pale gums, collapse or sudden behavior change"
+    ]
+  },
+  {
+    "disease": "Ear Mites in Cat",
+    "overview": "The image is visually closest to the ear-mite-in-cat label. Ear mites are a common cause of ear irritation in cats, but waxy debris, bacterial or yeast ear disease, foreign material and skin allergy can produce overlapping signs. A photo cannot confirm mites; veterinary ear examination and microscopic evaluation may be needed.",
+    "typical_signs": [
+      "Ear scratching or rubbing",
+      "Head shaking",
+      "Dark crumbly ear debris",
+      "Redness around the ear or ear flap",
+      "Hair loss, crusting or scratches near the ear",
+      "Sensitivity when the ear is touched",
+      "One or both ears may appear affected"
+    ],
+    "transmission": "Ear mites can spread between animals through close contact, especially among cats and other household pets. People are not the usual host, but household spread among animals is important to discuss with a veterinarian.",
+    "ask_your_vet": [
+      "Ask whether otoscopic ear examination or microscopy is needed to confirm mites",
+      "Ask whether bacterial, yeast or allergic ear disease should also be considered",
+      "Ask whether other cats, dogs or close-contact animals should be checked",
+      "Ask what signs would indicate deeper ear involvement or pain"
+    ],
+    "urgent_flags": [
+      "Head tilt, circling, loss of balance or unusual eye movement",
+      "Severe pain or strong resistance to ear handling",
+      "Bleeding, swelling or wounds around the ear",
+      "Bad odor, heavy discharge or rapidly worsening debris",
+      "Loss of appetite, fever or marked lethargy",
+      "Sudden hearing or behavior changes"
+    ]
+  },
+  {
+    "disease": "Eye Infection in Cat",
+    "overview": "The image is visually closest to the cat eye-infection label. Redness, discharge and swelling around the eye may come from infection, trauma, foreign material, corneal disease, eyelid disease or systemic illness, and these causes cannot be separated reliably from an image alone. Eye problems deserve careful triage because discomfort or vision risk can progress quickly.",
+    "typical_signs": [
+      "Redness around the eye or conjunctiva",
+      "Watery, mucus-like or colored discharge",
+      "Squinting or holding the eye partly closed",
+      "Swelling of eyelids or tissue around the eye",
+      "Rubbing the face or pawing at the eye",
+      "Cloudiness, surface change or visible irritation",
+      "One or both eyes may be affected"
+    ],
+    "transmission": "Some infectious eye conditions can spread between cats, but image appearance alone cannot identify the cause. Hygiene and separation questions should be handled through veterinary guidance, especially in multi-cat homes.",
+    "ask_your_vet": [
+      "Ask whether the eye should be examined urgently",
+      "Ask what signs suggest pain, corneal injury or vision risk",
+      "Ask whether other cats in the household should be checked if signs are spreading",
+      "Ask whether the eye, eyelids and surrounding skin need separate evaluation"
+    ],
+    "urgent_flags": [
+      "Squinting, closed eye or obvious eye pain",
+      "Cloudy eye, blue-white haze or visible surface defect",
+      "Visible trauma, bleeding or foreign material",
+      "Sudden swelling around the eye or face",
+      "Apparent vision change, bumping into objects or disorientation",
+      "Fever, poor appetite or marked lethargy"
+    ]
+  },
+  {
+    "disease": "Eye Infection in Dog",
+    "overview": "The image is visually closest to the dog eye-infection label. Red eye, discharge, swelling and squinting can reflect infection, allergy, trauma, foreign material, corneal ulceration, eyelid disease or other eye disorders. A single image should be used for triage only because some eye conditions require prompt veterinary assessment to protect comfort and vision.",
+    "typical_signs": [
+      "Redness around the eye or conjunctiva",
+      "Watery, mucus-like or colored discharge",
+      "Squinting or keeping the eye partly closed",
+      "Swelling of eyelids or surrounding tissue",
+      "Rubbing the face or pawing at the eye",
+      "Cloudiness, surface irregularity or visible irritation",
+      "Light sensitivity or reluctance to open the eye"
+    ],
+    "transmission": "Transmission depends on the underlying cause and cannot be confirmed from a photo. Some infectious causes may spread between animals, while allergy, injury or foreign material are not contagious.",
+    "ask_your_vet": [
+      "Ask whether an eye examination is needed urgently",
+      "Ask what signs suggest pain, corneal injury or vision risk",
+      "Ask whether discharge is more consistent with infection, irritation, allergy or injury",
+      "Ask whether both eyes and the surrounding skin should be evaluated"
+    ],
+    "urgent_flags": [
+      "Squinting, closed eye or strong light sensitivity",
+      "Cloudy eye, blue-white haze or visible injury",
+      "Sudden swelling around the eye or face",
+      "Apparent vision change or bumping into objects",
+      "Bleeding, foreign material or severe discharge",
+      "Fever, lethargy or poor appetite"
+    ]
+  },
+  {
+    "disease": "Foot and Mouth disease",
+    "overview": "This cattle label means the image is visually closest to foot-and-mouth-disease examples in the dataset. Foot-and-mouth disease is a high-consequence vesicular livestock disease, and similar mouth or foot lesions can have major herd-health and regulatory implications. A suspected case should be handled as a veterinary and animal-health-authority matter rather than a routine skin problem.",
+    "typical_signs": [
+      "Blisters, erosions or ulcers around the mouth, muzzle, tongue, teats or feet",
+      "Drooling or difficulty eating",
+      "Lameness or reluctance to stand or walk",
+      "Fever, dullness or reduced appetite",
+      "Reduced milk production in dairy animals",
+      "Several animals affected over a short period",
+      "Young animals may appear weak or severely unwell"
+    ],
+    "transmission": "Foot-and-mouth disease can spread rapidly among susceptible cloven-hoofed animals through direct contact, contaminated materials and movement of animals or animal products. Local veterinary and official animal-health guidance should be followed immediately when this disease is suspected.",
+    "ask_your_vet": [
+      "Ask whether immediate veterinary assessment and official animal-health reporting are required",
+      "Ask what information to collect about affected animals, onset dates and herd contacts",
+      "Ask what isolation and movement-control precautions are appropriate while awaiting professional guidance",
+      "Ask whether other animals on the premises or recent contacts need urgent evaluation"
+    ],
+    "urgent_flags": [
+      "Mouth, foot, teat or muzzle blisters or erosions",
+      "Multiple animals affected or rapid herd spread",
+      "Severe lameness, drooling or inability to feed",
+      "Fever, marked dullness or sudden drop in milk production",
+      "Recent animal movement, market exposure or contact with affected herds",
+      "Young animals weak, collapsed or suddenly dead"
+    ]
+  },
+  {
+    "disease": "Fungal Infection in Dog",
+    "overview": "The image is visually closest to the fungal-infection-in-dog class. Fungal skin disease can resemble allergy, parasites, bacterial skin disease or self-trauma, and different fungal causes require different diagnostic approaches. This card is educational; veterinary testing is needed before using the image label as a confirmed cause.",
+    "typical_signs": [
+      "Circular or patchy hair loss",
+      "Scaling, dandruff-like flakes or crusting",
+      "Redness or inflamed skin",
+      "Broken hairs or rough coat in the affected area",
+      "Variable itching, from absent to intense",
+      "One lesion or multiple spreading lesions",
+      "Lesions may involve the face, feet, trunk or other contact areas"
+    ],
+    "transmission": "Some fungal skin infections, especially dermatophyte-type disease, can spread between animals and people. Other fungal or inflammatory mimics may not be contagious, so veterinary confirmation and household risk assessment matter.",
+    "ask_your_vet": [
+      "Ask whether fungal culture, microscopy, lamp examination or other testing is needed",
+      "Ask whether allergy, mites, bacterial infection or self-trauma should also be ruled out",
+      "Ask whether other animals or exposed people should be considered if lesions are spreading",
+      "Ask what handling and environmental precautions are appropriate while waiting for confirmation"
+    ],
+    "urgent_flags": [
+      "Rapid spread or many lesions",
+      "Young, elderly or immunocompromised people exposed",
+      "Multiple animals in the household developing skin signs",
+      "Open sores, pus, bad odor or severe inflammation",
+      "Poor general condition, fever or reduced appetite",
+      "Lesions near the eye or extensive facial involvement"
+    ]
+  },
+  {
+    "disease": "Hot Spots in Dog",
+    "overview": "The image is visually closest to the hot-spots-in-dog class, also called acute moist dermatitis in many veterinary references. Hot spots are rapidly inflamed, moist skin areas that can follow itching, moisture, allergy, parasites, ear disease or self-trauma. A photo can identify a compatible appearance but cannot determine the trigger or whether deeper infection is present.",
+    "typical_signs": [
+      "Moist red patch of skin",
+      "Hair loss or matted hair over the area",
+      "Licking, chewing, rubbing or scratching",
+      "Pain or sensitivity when touched",
+      "Rapid enlargement over hours to days",
+      "Surface discharge, crusting or odor",
+      "Commonly noticed on the head, neck, hips or limbs"
+    ],
+    "transmission": "Hot spots themselves are usually a reaction pattern rather than a contagious disease label. The underlying trigger can vary, and parasites or infection can coexist, so spread to other animals should be discussed with a veterinarian.",
+    "ask_your_vet": [
+      "Ask what underlying trigger should be checked, such as allergy, parasites, moisture or ear disease",
+      "Ask whether the lesion needs in-person examination or diagnostic evaluation",
+      "Ask what signs suggest deeper infection or pain",
+      "Ask whether recurrent hot spots indicate a broader skin or ear problem"
+    ],
+    "urgent_flags": [
+      "Rapid expansion or large painful area",
+      "Pus, bad odor, heavy discharge or open skin",
+      "Severe pain, agitation or inability to rest",
+      "Fever, lethargy, poor appetite or weakness",
+      "Lesion near the eye, ear canal, genitals or feet",
+      "Repeated episodes or multiple lesions at once"
+    ]
+  },
+  {
+    "disease": "Lumpy Skin",
+    "overview": "This cattle label means the image is visually closest to lumpy-skin-disease examples in the dataset. Lumpy skin disease is a serious cattle disease associated with nodular skin lesions and herd-level implications, while some abscesses, insect bites, papillomas or other nodular diseases can mimic it. Suspected cases should be reviewed through veterinary and official animal-health channels.",
+    "typical_signs": [
+      "Firm raised skin nodules",
+      "Nodules over the head, neck, trunk, udder or limbs",
+      "Swelling of limbs, dewlap or lymph-node regions",
+      "Fever, dullness or reduced appetite",
+      "Reduced milk production or weight loss",
+      "Eye or nasal discharge in some animals",
+      "Multiple animals affected within a herd or area"
+    ],
+    "transmission": "Lumpy skin disease can spread within and between cattle populations, with biting insects and animal movement playing important roles. Because of herd-health and regulatory implications, suspected cases should follow local veterinary and animal-health-authority guidance.",
+    "ask_your_vet": [
+      "Ask whether herd-level examination and official reporting are required",
+      "Ask what history to collect, including onset, animal movements, insect exposure and affected herd size",
+      "Ask whether other cattle on the premises should be examined",
+      "Ask what isolation or movement-control precautions are appropriate while awaiting guidance"
+    ],
+    "urgent_flags": [
+      "Many firm nodules or rapidly increasing numbers of lesions",
+      "Fever, marked weakness or reduced feeding",
+      "Multiple cattle affected or rapid herd spread",
+      "Swelling of limbs, face, udder or lymph-node regions",
+      "Eye involvement, nasal discharge or breathing difficulty",
+      "Recent movement from or contact with affected areas"
+    ]
+  },
+  {
+    "disease": "Mange in Dog",
+    "overview": "The image is visually closest to the mange-in-dog label. Mange is a broad term for mite-associated skin disease, and image appearance cannot distinguish mite species or separate mites from allergy, infection or fungal disease. Veterinary skin examination and mite-directed diagnostics may be needed, especially when itching is severe or multiple animals are affected.",
+    "typical_signs": [
+      "Hair loss, often patchy or spreading",
+      "Crusting, scaling or thickened skin",
+      "Redness and irritation",
+      "Itching that may be intense in some forms",
+      "Scratches, scabs or self-trauma",
+      "Lesions on ears, elbows, hocks, face, belly or trunk",
+      "Secondary odor or discharge if skin is damaged"
+    ],
+    "transmission": "Some forms of mange are contagious between animals and can cause temporary irritation in people, while other mite-related conditions are less contagious. The distinction cannot be made from the uploaded image alone.",
+    "ask_your_vet": [
+      "Ask whether skin scraping, tape prep or other parasite testing is needed",
+      "Ask whether the pattern is more compatible with contagious mites, allergy, infection or another cause",
+      "Ask whether close-contact animals should be examined",
+      "Ask what household or kennel risk questions should be considered while awaiting confirmation"
+    ],
+    "urgent_flags": [
+      "Severe itching, self-injury or inability to rest",
+      "Large areas of hair loss, crusting or thickened skin",
+      "Weight loss, poor body condition or weakness",
+      "Young, elderly, frail or immunocompromised animal affected",
+      "Human skin irritation or multiple animals developing signs",
+      "Open sores, pus, bad odor, fever or lethargy"
+    ]
+  },
+  {
+    "disease": "Normal Skin",
+    "overview": "The image is visually closest to the normal-cattle-skin class in the training taxonomy. This does not exclude early disease, lesions outside the photographed area, hidden foot or mouth lesions, or herd-level problems. In livestock, the animal's behavior, appetite, milk production, temperature and whether other animals are affected are as important as the image.",
+    "typical_signs": [
+      "No obvious focal lesion in the uploaded view",
+      "Skin and hair coat appear broadly even in the photographed area",
+      "No visible nodules, circular hair loss, crusting, wounds or discharge",
+      "No obvious swelling or lameness visible in the image",
+      "Dirt, hair length, lighting and camera distance can hide subtle lesions"
+    ],
+    "transmission": "Normal skin is not a transmissible disease label. If several animals show skin lesions, fever, lameness, mouth lesions or reduced production, a herd-health problem may still be present despite a normal-looking single image.",
+    "ask_your_vet": [
+      "Ask whether the photographed area looks normal for this animal and breed",
+      "Ask what additional views are useful if lesions are suspected elsewhere",
+      "Ask whether temperature, appetite, milk production or herd spread should be checked",
+      "Ask whether herd-level review is needed if more than one animal is affected"
+    ],
+    "urgent_flags": [
+      "Fever, dullness, poor appetite or sudden production drop",
+      "Rapid spread of lesions or multiple animals affected",
+      "Open wounds, discharge, swelling or painful skin",
+      "Lameness, mouth lesions, drooling or reluctance to eat",
+      "Many nodules or circular crusting lesions",
+      "Recent animal movement or contact with sick animals"
+    ]
+  },
+  {
+    "disease": "Ringworm in Cat",
+    "overview": "The image is visually closest to the ringworm-in-cat label. Ringworm is a dermatophyte fungal skin disease and may look like allergy, mites, bacterial infection or grooming-related hair loss, especially in cats. Veterinary confirmation is important because ringworm can affect other animals and people.",
+    "typical_signs": [
+      "Circular or patchy hair loss",
+      "Scaling, flakes or crusts",
+      "Broken hairs or rough coat",
+      "Lesions on the face, ears, feet or body",
+      "Mild, absent or variable itching",
+      "Multiple small lesions or spreading areas",
+      "Some cats may carry or spread dermatophytes with subtle signs"
+    ],
+    "transmission": "Ringworm can be contagious between cats, other animals and people through direct contact or contaminated material. Zoonotic risk is especially important for young children, older adults and immunocompromised people.",
+    "ask_your_vet": [
+      "Ask whether fungal testing is needed to confirm dermatophyte disease",
+      "Ask whether other animals in the household should be examined",
+      "Ask what household exposure and handling precautions are appropriate while awaiting confirmation",
+      "Ask whether human skin lesions after contact should prompt medical advice"
+    ],
+    "urgent_flags": [
+      "Many lesions or rapid spread",
+      "Young, elderly or immunocompromised people exposed",
+      "Multiple animals developing similar skin signs",
+      "Lesions near the eye or extensive facial involvement",
+      "Open sores, pus, bad odor or poor general condition",
+      "Shelter, rescue, cattery or multi-animal setting"
+    ]
+  },
+  {
+    "disease": "Ringworm in Dog",
+    "overview": "The image is visually closest to the ringworm-in-dog label. Ringworm is a dermatophyte fungal skin disease, but dogs with allergy, mites, bacterial skin disease or self-trauma can have similar patches of hair loss and scaling. A veterinary test is needed before using the label as a confirmed cause.",
+    "typical_signs": [
+      "Patchy or circular hair loss",
+      "Scaling, crusting or broken hairs",
+      "Redness around the lesion",
+      "Variable itching",
+      "Lesions on face, feet, limbs or trunk",
+      "One lesion or multiple spreading lesions",
+      "Contact history with affected animals or people may be relevant"
+    ],
+    "transmission": "Ringworm can be contagious between dogs, cats, other animals and people through direct contact or contaminated material. Household and kennel exposure should be discussed with a veterinarian when this label appears.",
+    "ask_your_vet": [
+      "Ask whether fungal culture, microscopy or other testing is needed",
+      "Ask whether allergy, mites or bacterial skin disease should also be ruled out",
+      "Ask whether other animals or exposed people should be considered",
+      "Ask what handling and environmental precautions are appropriate while awaiting confirmation"
+    ],
+    "urgent_flags": [
+      "Many lesions or rapid spread",
+      "Young, elderly or immunocompromised people exposed",
+      "Multiple animals developing similar signs",
+      "Open sores, pus, bad odor or severe inflammation",
+      "Lesions near the eye or extensive facial involvement",
+      "Poor appetite, fever or marked lethargy"
+    ]
+  },
+  {
+    "disease": "Ringworm(cow)",
+    "overview": "The image is visually closest to the ringworm-in-cattle label. Cattle ringworm is a dermatophyte fungal skin disease, but crusting, hair loss and circular lesions can also come from parasites, trauma, bacterial disease or environmental irritation. Veterinary confirmation matters for herd management and zoonotic risk.",
+    "typical_signs": [
+      "Circular patches of hair loss",
+      "Gray-white scaling or crusting",
+      "Thickened or raised circular plaques",
+      "Lesions often around the head, neck, eyes or body",
+      "Usually mild itching but variable discomfort",
+      "Multiple animals may show similar lesions",
+      "Lesions may be more noticeable in young or grouped cattle"
+    ],
+    "transmission": "Cattle ringworm can spread between animals and can be zoonotic. Transmission can involve direct contact and contaminated equipment, housing or handling surfaces.",
+    "ask_your_vet": [
+      "Ask whether fungal confirmation is needed",
+      "Ask whether other cattle in the group should be examined",
+      "Ask what herd-contact and handling precautions are appropriate",
+      "Ask whether human skin lesions after cattle contact require medical advice"
+    ],
+    "urgent_flags": [
+      "Many animals affected or rapid spread through a group",
+      "Human skin lesions after cattle contact",
+      "Lesions near the eye or extensive facial involvement",
+      "Open wounds, discharge or severe inflammation",
+      "Poor body condition, fever or reduced feeding",
+      "Young or stressed animals heavily affected"
+    ]
+  },
+  {
+    "disease": "Skin Allergy in Cat",
+    "overview": "The image is visually closest to the skin-allergy-in-cat label. Allergic or hypersensitivity skin disease can resemble parasites, ringworm, bacterial infection, food-associated disease or overgrooming from other causes. Photos alone cannot identify the trigger, so the value of this label is to guide a structured veterinary workup.",
+    "typical_signs": [
+      "Itching, scratching or rubbing",
+      "Overgrooming or barbered hair",
+      "Redness or irritated skin",
+      "Hair loss on belly, limbs, flank, face or neck",
+      "Scabs, small crusts or miliary dermatitis pattern",
+      "Ear irritation or recurrent skin flare-ups",
+      "Seasonal or recurring pattern in some cats"
+    ],
+    "transmission": "Allergy itself is not contagious. However, parasites, ringworm or infection can mimic allergic skin disease and may spread, so contagious causes should be considered when lesions involve several animals or people.",
+    "ask_your_vet": [
+      "Ask what causes should be ruled out before calling the problem allergy",
+      "Ask what history details are useful, such as flea exposure, diet, seasonality, indoor-outdoor access and other animals",
+      "Ask whether skin, parasite or fungal testing is appropriate",
+      "Ask what signs suggest secondary infection or another diagnosis"
+    ],
+    "urgent_flags": [
+      "Severe itching, self-trauma or inability to rest",
+      "Open sores, bleeding, pus or bad odor",
+      "Rapid spread or many new lesions",
+      "Poor appetite, fever, lethargy or hiding",
+      "Facial swelling, eye involvement or ear pain",
+      "Multiple animals or people developing skin signs"
+    ]
+  },
+  {
+    "disease": "Skin Allergy in Dog",
+    "overview": "The image is visually closest to the skin-allergy-in-dog label. Allergic dermatitis in dogs can overlap visually with parasites, bacterial or yeast skin disease, fungal infection, irritant exposure and self-trauma. The image label should be used as a triage cue for a veterinary workup rather than as proof of an allergy trigger.",
+    "typical_signs": [
+      "Itching, licking, chewing or rubbing",
+      "Redness, especially around paws, belly, armpits, groin, face or ears",
+      "Hair loss or recurrent irritated patches",
+      "Ear irritation or recurrent ear debris",
+      "Scabs, crusting, scaling or thickened skin",
+      "Odor or discharge when secondary infection is present",
+      "Seasonal, dietary or environmental pattern in some dogs"
+    ],
+    "transmission": "Allergy itself is not contagious. Parasites, ringworm and some infections can mimic or complicate allergy-like skin disease, so household spread or zoonotic concern should be discussed with a veterinarian.",
+    "ask_your_vet": [
+      "Ask what causes should be ruled out before assuming allergy",
+      "Ask whether skin cytology, parasite testing, fungal testing or other diagnostics are needed",
+      "Ask what history details are useful, such as seasonality, flea exposure, diet, ear signs and contact with other animals",
+      "Ask what signs suggest secondary infection or a more urgent problem"
+    ],
+    "urgent_flags": [
+      "Severe itching, self-injury or inability to sleep",
+      "Open sores, bleeding, pus or bad odor",
+      "Rapid spread, swelling or extensive redness",
+      "Fever, lethargy, poor appetite or weakness",
+      "Face, eye, ear canal, paw or genital involvement",
+      "Multiple animals or people developing skin signs"
+    ]
+  },
+  {
+    "disease": "Tick Infestation in Dog",
+    "overview": "The image is visually closest to the tick-infestation-in-dog label. Visible ticks or tick-like dark bodies on the skin can be confused with scabs, debris, small masses or other parasites, so careful inspection is needed. Tick exposure can also raise concern for tick-borne illness, which cannot be judged from the skin photo alone.",
+    "typical_signs": [
+      "Visible attached ticks or small dark bodies on the skin",
+      "Local redness, swelling or scab at an attachment site",
+      "Scratching, licking or irritation",
+      "Multiple parasites or clustered attachments in heavy exposure",
+      "Weakness, fever or behavior change when systemic illness is present",
+      "Pale gums or bruising-like changes in more concerning cases",
+      "History of outdoor, grassy, wooded or livestock-area exposure"
+    ],
+    "transmission": "Ticks can transmit pathogens depending on region, tick species and exposure time. The image cannot determine infection risk, so systemic signs or heavy exposure should be reviewed by a veterinarian.",
+    "ask_your_vet": [
+      "Ask whether the animal should be assessed for tick-borne disease risk",
+      "Ask what signs require urgent veterinary assessment after tick exposure",
+      "Ask whether the finding is truly a tick versus scab, skin mass or another parasite",
+      "Ask whether other animals in the household have similar exposure risk"
+    ],
+    "urgent_flags": [
+      "Weakness, collapse or sudden behavior change",
+      "Fever, poor appetite or marked lethargy",
+      "Pale gums, bruising-like spots or bleeding",
+      "Many ticks or heavy infestation",
+      "Lameness, swollen joints or severe pain",
+      "Vomiting, difficulty breathing or neurologic signs"
+    ]
+  },
+  {
+    "disease": "papiloma",
+    "overview": "This cattle label means the image is visually closest to papilloma-like skin growths in the dataset. Papillomas are wart-like masses, but nodules, tumors, abscesses, scars, insect reactions and other skin diseases can look similar in photos. An in-person examination is important when a growth changes, bleeds, ulcerates or interferes with normal function.",
+    "typical_signs": [
+      "Raised wart-like skin growth",
+      "Single or multiple nodules or masses",
+      "Rough, cauliflower-like or irregular surface",
+      "Surface crusting, rubbing or irritation",
+      "Growths on head, neck, udder, teats, limbs or other contact areas",
+      "Bleeding or ulceration if traumatized",
+      "Interference with walking, feeding, milking or tack/equipment contact"
+    ],
+    "transmission": "Some papilloma-like conditions can spread between cattle through contact or contaminated equipment, depending on the cause. Other masses are not contagious, so veterinary assessment is needed for risk classification.",
+    "ask_your_vet": [
+      "Ask whether the growth needs examination, sampling or monitoring",
+      "Ask what changes in size, color, bleeding or ulceration are concerning",
+      "Ask whether other animals should be checked if multiple cattle have similar growths",
+      "Ask whether the location creates risk for pain, trauma, milking difficulty or movement problems"
+    ],
+    "urgent_flags": [
+      "Rapid growth or sudden change in appearance",
+      "Bleeding, ulceration, discharge or bad odor",
+      "Pain, swelling or repeated trauma to the growth",
+      "Interference with walking, feeding, milking or vision",
+      "Many animals affected or rapid appearance of new masses",
+      "Fever, weight loss, reduced feeding or poor condition"
+    ]
+  },
+  {
+    "disease": "scabies cat",
+    "overview": "The image is visually closest to the scabies-cat label, a mange-like mite disease category. Several feline skin diseases can resemble scabies in photos, including ear mites, allergy, ringworm, bacterial infection and overgrooming. Veterinary testing is important because contagious mite disease changes the risk assessment for other animals and people.",
+    "typical_signs": [
+      "Intense itching, scratching or rubbing",
+      "Crusting, scaling or thickened skin",
+      "Hair loss on ears, face, neck, limbs or body",
+      "Redness and self-trauma",
+      "Scabs around ear margins, face or neck",
+      "Restlessness or discomfort",
+      "Possible spread to other animals in close contact"
+    ],
+    "transmission": "Some scabies or mange-like mite conditions can be contagious between animals and may cause temporary irritation in people. The exact mite and zoonotic risk cannot be confirmed from an image alone.",
+    "ask_your_vet": [
+      "Ask whether skin scraping, tape prep or mite testing is needed",
+      "Ask whether ringworm, allergy, ear mites or bacterial infection should also be ruled out",
+      "Ask whether other animals in the household should be examined",
+      "Ask whether human skin irritation after contact should prompt medical advice"
+    ],
+    "urgent_flags": [
+      "Severe itching, self-injury or inability to rest",
+      "Rapid spread or many crusted lesions",
+      "Human skin irritation after contact",
+      "Young, frail, elderly or immunocompromised animal affected",
+      "Open sores, pus, bad odor or severe inflammation",
+      "Poor appetite, fever, lethargy or weight loss"
+    ]
+  },
+  {
+    "disease": "scabies cattle",
+    "overview": "The image is visually closest to the scabies-cattle label, a mange-like mite disease category. Hair loss, crusting and thickened skin in cattle can also reflect ringworm, lice, allergy, trauma, nutrition-related coat change or bacterial disease. Because mite-associated disease can involve multiple animals, herd-level assessment may be needed.",
+    "typical_signs": [
+      "Itching, rubbing or restlessness",
+      "Hair loss, especially in rubbed areas",
+      "Crusting, scaling or thickened skin",
+      "Redness, wounds or self-trauma from rubbing",
+      "Lesions on neck, shoulders, tail head, limbs or body",
+      "Poor coat condition or weight loss in heavy cases",
+      "Multiple cattle affected in a group"
+    ],
+    "transmission": "Mite-associated disease can spread through close animal contact and shared environments or equipment. The level of contagion depends on the mite and herd conditions, so veterinary confirmation matters.",
+    "ask_your_vet": [
+      "Ask whether parasite testing or skin scraping is needed",
+      "Ask whether ringworm, lice, allergy or bacterial disease should also be ruled out",
+      "Ask whether herd-level examination is required",
+      "Ask what animal-contact, housing and equipment history should be reviewed"
+    ],
+    "urgent_flags": [
+      "Many animals affected or rapid spread through a group",
+      "Severe rubbing wounds, bleeding or open sores",
+      "Poor body condition, weakness or reduced feeding",
+      "Young, old or stressed animals heavily affected",
+      "Fever, extensive swelling or discharge",
+      "Human skin irritation after close cattle contact"
+    ]
+  }
+]

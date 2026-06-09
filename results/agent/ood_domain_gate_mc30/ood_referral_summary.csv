@@ -1,0 +1,5 @@
+user_species,n,educational_only,educational_only_rate,vet_recommended,vet_recommended_rate,vet_required,vet_required_rate,unsupported_image,unsupported_image_rate,safe_escalation,safe_escalation_rate,unflagged_ood,unflagged_ood_rate,median_p_max,median_entropy
+all,225,0,0.0,0,0.0,0,0.0,225,1.0,225,1.0,0,0.0,0.0,0.0
+Cat,75,0,0.0,0,0.0,0,0.0,75,1.0,75,1.0,0,0.0,0.0,0.0
+Cattles,75,0,0.0,0,0.0,0,0.0,75,1.0,75,1.0,0,0.0,0.0,0.0
+Dog,75,0,0.0,0,0.0,0,0.0,75,1.0,75,1.0,0,0.0,0.0,0.0

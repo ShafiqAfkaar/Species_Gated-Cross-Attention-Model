@@ -1,0 +1,17 @@
+{
+  "checkpoint": "sgca_generalization_results/dog_healthy_sweep_v2_general_dog_2026_06_02/v2_u10_lr2e-6_no_sampler_ls0.03/Unified_SGCA_Uncertainty_GradCAM_best.pt",
+  "calibration_npz": "publication_figures/top2_model_comparison_900dpi/updated_fig/source_data/arrays_unified_val.npz",
+  "split_root": "training_data_deduped_splits/seed42",
+  "external_root": "evaluation_data/development_external_2026_05_02",
+  "output_dir": "publication_figures/top2_model_comparison_900dpi/updated_fig/agent_triage_full_cohort",
+  "batch_size": 4,
+  "num_workers": 0,
+  "mc_passes": 30,
+  "resamples": 1000,
+  "seed": 42,
+  "hash_images": false,
+  "cohorts": [
+    "internal_test",
+    "development_external"
+  ]
+}

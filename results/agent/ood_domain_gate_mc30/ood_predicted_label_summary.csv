@@ -1,0 +1,4 @@
+user_species,pred_disease,n,rate_within_species,median_p_max,referral_levels
+Cat,unsupported_image,75,1.0,0.0,unsupported_image:75
+Cattles,unsupported_image,75,1.0,0.0,unsupported_image:75
+Dog,unsupported_image,75,1.0,0.0,unsupported_image:75

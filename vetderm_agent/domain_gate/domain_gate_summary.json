@@ -1,0 +1,11 @@
+{
+  "output": "publication_figures/top2_model_comparison_900dpi/updated_fig/source_data/domain_gate/domain_gate_profile_frr05.npz",
+  "reference_n": 11859,
+  "validation_n": 2541,
+  "threshold": 0.7911162972450256,
+  "target_false_reject_rate": 0.05,
+  "observed_validation_reject_rate": 0.049980322707595434,
+  "validation_score_min": 0.48977628350257874,
+  "validation_score_median": 0.9554829597473145,
+  "validation_score_max": 0.9999997019767761
+}

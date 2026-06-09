@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+.venv/
+venv/
+de_env/
+node_modules/
+
+vetderm_agent/audit/*.jsonl
+vetderm_agent/cache/*.json
+vetderm_agent/static/gradcam/
+vetderm_agent/static/gradcam_check/
+
+data/training_data_deduped_splits/
+data/development_external_2026_05_02/
+data/ood_images/
+
+*.log
+~$*
+
+# Withheld manuscript source-data package
+figures/model_comparison/source_data/*
+!figures/model_comparison/source_data/README.md
+data/manifests/*
+!data/manifests/README.md
+data/checksums/*
+!data/checksums/README.md
+results/agent/triage_mc30/all_agent_predictions.csv
+results/agent/triage_mc30/*_agent_predictions.csv
+results/agent/ood_domain_gate_mc30/ood_agent_predictions.csv
+
+# Manuscript result figures are withheld for initial GitHub release
+figures/
+
+# Internal release audit docs are withheld
+docs/
