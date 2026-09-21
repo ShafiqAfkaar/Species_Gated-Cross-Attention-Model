@@ -2,6 +2,8 @@
 
 # Species-Gated Cross-Attention Model
 
+**Project website:** https://shafiqafkaar.github.io/Species_Gated-Cross-Attention-Model/
+
 ### Multi-species veterinary dermatology classification with uncertainty-aware decision support
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](#installation)
